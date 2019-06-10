@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar'
 import TypoGraphy from '@material-ui/core/Typography'
+import NavBar from './navbar';
 
 
 class App extends Component {
@@ -15,6 +16,11 @@ class App extends Component {
             >
               My header
            </TypoGraphy>
+            <TypoGraphy variant="h5"
+              color="inherit"
+            >
+              <NavBar></NavBar>
+            </TypoGraphy>
           </Toolbar>
         </AppBar>
 
