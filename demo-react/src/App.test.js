@@ -4,7 +4,11 @@ import App from './App';
 
 
 test('spanshot test ', () => {
-  const component = renderer.create(<App></App>);
+  const component = renderer.create(
+    <div>
+      <App></App>
+    </div>
+  );
   const tree = component.toJSON();
   expect(tree).toMatchSnapshot();
 })

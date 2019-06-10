@@ -2,12 +2,20 @@
 
 exports[`spanshot test  1`] = `
 <div>
-  <header
-    className="MuiPaper-root MuiPaper-elevation4 MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary"
-  >
-    <h1>
-      My header
-    </h1>
-  </header>
+  <div>
+    <header
+      className="MuiPaper-root MuiPaper-elevation4 MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary"
+    >
+      <div
+        className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+      >
+        <h5
+          className="MuiTypography-root MuiTypography-h5 MuiTypography-colorInherit"
+        >
+          My header
+        </h5>
+      </div>
+    </header>
+  </div>
 </div>
 `;
